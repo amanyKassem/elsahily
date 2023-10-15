@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>alsahly</title>
+    <link rel="shortcut icon" href="assets/img/icon.png">
+
+
+
+    <!-- bootstrap 5 id english -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap 5 if arabic -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> -->
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" media="all"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!--    to load google font faster-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<!-- if arabic add to body class="rtl" dir="rtl" -->
+
+<body>
+
+
+    <!-- Start Header -->
+
+    <header id="header" class="mb-3">
+
+        <!-- menu -->
+        <div class="mainNav">
+            <div class="container">
+
+                <div class="menuBar d-flex d-md-none justify-content-between align-items-center">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" data-src="assets/img/logo.png" class="logo lazyload"
+                            alt="elsahli">
+                    </a>
+                    <div class="toggle">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="overlay"></div>
+
+                <div class="menu d-flex flex-wrap">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" data-src="assets/img/logo.png" class="logo lazyload"
+                            alt="alsahly">
+                    </a>
+                    <ul class="menuLinks">
+                        <li class="active me-md-4">
+                            <a class="text-capitalize" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="me-md-4">
+                            <a class="text-capitalize" href="properties.html">Properties</a>
+                        </li>
+                        <li class="me-md-4">
+                            <a class="text-capitalize" href="aboutUs.html">Company</a>
+                        </li>
+                        <li>
+                            <a class="text-capitalize" href="contactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex flex-column align-items-start flex-md-row align-items-md-center">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
+                            class="btn btn-secondary me-md-5">
+                            login
+                        </button>
+                        <a href="#" class="d-flex align-items-center justify-content-center lang">
+                            <span>Ar</span>
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content position-relative z-index1">
+            <div class="container">
+                <div class="inner-text text-center">
+                    <h1>Find Your Dream Home</h1>
+                    <p class="mb-0">
+                        We are recognized for exceeding client expectations and delivering great results through
+                        dedication,
+                        ease of
+                        process, and extraordinary services to our worldwide clients.
+                    </p>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="main-tabs d-flex align-items-center justify-content-center flex-wrap px-4 pt-4">
+                        <button type="button" class="btn btn-secondary me-md-4 px-md-3 mb-4">
+                            Residential
+                        </button>
+                        <button type="button" class="btn btn-gray me-md-4 px-md-3 mb-4">
+                            Commercial
+                        </button>
+                        <button type="button" class="btn btn-gray me-md-4 px-md-3 mb-4">
+                            Investment
+                        </button>
+                        <button type="button" class="btn btn-gray me-md-4 px-md-3 mb-4">
+                            State property
+                        </button>
+                        <button type="button" class="btn btn-gray me-md-4 px-md-3 mb-4">
+                            Industrial
+                        </button>
+                        <button type="button" class="btn btn-gray px-md-3 mb-4">
+                            Allowance
+                        </button>
+                    </div>
+                    <div class="tab-cont px-3 px-md-4 pt-4 pb-3">
+                        <div class="row mx-0 align-items-end">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Contract Purpose
+                                    </label>
+                                    <select class="select2 form-control w-100">
+                                        <option label=""> </option>
+                                        <option value="1"> Purpose 1</option>
+                                        <option value="2"> Purpose 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Governate
+                                    </label>
+                                    <select class="select2 form-control w-100">
+                                        <option label=""> </option>
+                                        <option value="1"> Governate 1</option>
+                                        <option value="2"> Governate 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Area
+                                    </label>
+                                    <select class="select2 form-control w-100">
+                                        <option label=""> </option>
+                                        <option value="1"> Area 1</option>
+                                        <option value="2"> Area 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Property Type
+                                    </label>
+                                    <select class="select2 form-control w-100">
+                                        <option label=""> </option>
+                                        <option value="1"> Type 1</option>
+                                        <option value="2"> Type 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Property Sub-Type
+                                    </label>
+                                    <select class="select2 form-control w-100">
+                                        <option label=""> </option>
+                                        <option value="1"> Type 1</option>
+                                        <option value="2"> Type 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Min Size
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Min Size">
+                                        <span class="input-group-text">(Km)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Max Size
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Max Size">
+                                        <span class="input-group-text">(Km)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Min Price
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Min Price">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <label class="mb-1">
+                                        Max Price
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="Max Price">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="mb-3">
+                                    <button type="button"
+                                        class="mt-3 mt-md-0 btn btn-primary d-inline-flex me-2 reset-filter">
+                                        Reset
+                                    </button>
+                                    <button type="submit" class="mt-3 mt-md-0 btn btn-secondary d-inline-flex">
+                                        Search
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- end header -->
+
+    <!-- start comparing block -->
+    <div
+        class="comparing-block align-items-center justify-content-center justify-content-md-between flex-wrap pt-3 pt-md-4 px-3">
+        <h5 class="mb-2 mb-md-4">comparing 3 offers</h5>
+        <div class="d-flex align-items-center flex-wrap">
+            <a href="comparing.html" class="btn btn-secondary me-2 px-md-4 mb-3 mb-md-4">
+                compare
+            </a>
+            <button class="btn bg-transparent fw-600  mb-3 mb-md-4 text-danger delete-compare">
+                Delete All
+            </button>
+        </div>
+    </div>
+    <!-- end comparing block -->
+
+    <!-- Start feature messages -->
+    <div class="feature-msgs position-relative py-5 mb-3">
+        <div class="container">
+            <h3 class="main-title text-center">Feature Message</h3>
+            <p class="main-desc text-center">
+                The most important properties and the best prices on our site
+            </p>
+
+            <div class="owl-carousel feature-carusel">
+                <div class="item product-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative">
+                        <a href="productDetails.html">
+                            <img src="assets/img/no-img.png" data-src="assets/img/no-img.png"
+                                class="solutionIcon lazyload position-relative" alt="title">
+                        </a>
+                        <ul class="action-list">
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <i class="fas fa-heart text-gray toggle-like"></i>
+                            </li>
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0)" class="compare-item">
+                                    <i class="fa-solid fa-code-compare text-gray"></i>
+                                </a>
+                            </li>
+                            <li
+                                class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                <a href="javascript:void(0)">
+                                    <i class="fas fa-share-alt text-gray"></i>
+                                </a>
+                                <ul class="share-options">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-messenger"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="options">
+                            <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                        </div>
+                    </div>
+                    <div class="px-3 py-4">
+                        <a href="productDetails.html">
+                            <h6> Property Title</h6>
+                        </a>
+                        <div class="info">
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                    alt="location">
+                                <span class="text-midGray">Governate - Area</span>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                    alt="spacve">
+                                <span class="text-midGray">1200 m<sup>2</sup>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-secondary price">
+                            2779 KD
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item product-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative">
+                        <a href="productDetails.html">
+                            <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                class="solutionIcon lazyload position-relative" alt="title">
+                        </a>
+                        <ul class="action-list">
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <i class="fas fa-heart text-gray toggle-like"></i>
+                            </li>
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0)" class="compare-item">
+                                    <i class="fa-solid fa-code-compare text-gray"></i>
+                                </a>
+                            </li>
+                            <li
+                                class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                <a href="javascript:void(0)">
+                                    <i class="fas fa-share-alt text-gray"></i>
+                                </a>
+                                <ul class="share-options">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-messenger"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="options">
+                            <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                        </div>
+                    </div>
+                    <div class="px-3 py-4">
+                        <a href="productDetails.html">
+                            <h6> Property Title</h6>
+                        </a>
+                        <div class="info">
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                    alt="location">
+                                <span class="text-midGray">Governate - Area</span>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                    alt="spacve">
+                                <span class="text-midGray">1200 m<sup>2</sup>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-secondary price">
+                            2779 KD
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item product-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative">
+                        <a href="productDetails.html">
+                            <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                class="solutionIcon lazyload position-relative" alt="title">
+                        </a>
+                        <ul class="action-list">
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <i class="fas fa-heart text-gray toggle-like"></i>
+                            </li>
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0)" class="compare-item">
+                                    <i class="fa-solid fa-code-compare text-gray"></i>
+                                </a>
+                            </li>
+                            <li
+                                class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                <a href="javascript:void(0)">
+                                    <i class="fas fa-share-alt text-gray"></i>
+                                </a>
+                                <ul class="share-options">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-messenger"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="options">
+                            <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                        </div>
+                    </div>
+                    <div class="px-3 py-4">
+                        <a href="productDetails.html">
+                            <h6> Property Title</h6>
+                        </a>
+                        <div class="info">
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                    alt="location">
+                                <span class="text-midGray">Governate - Area</span>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                    alt="spacve">
+                                <span class="text-midGray">1200 m<sup>2</sup>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-secondary price">
+                            2779 KD
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item product-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative">
+                        <a href="productDetails.html">
+                            <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                class="solutionIcon lazyload position-relative" alt="title">
+                        </a>
+                        <ul class="action-list">
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <i class="fas fa-heart text-gray toggle-like"></i>
+                            </li>
+                            <li class="p-2 d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0)" class="compare-item">
+                                    <i class="fa-solid fa-code-compare text-gray"></i>
+                                </a>
+                            </li>
+                            <li
+                                class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                <a href="javascript:void(0)">
+                                    <i class="fas fa-share-alt text-gray"></i>
+                                </a>
+                                <ul class="share-options">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="fab fa-facebook-messenger"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="options">
+                            <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                            <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                        </div>
+                    </div>
+                    <div class="px-3 py-4">
+                        <a href="productDetails.html">
+                            <h6> Property Title</h6>
+                        </a>
+                        <div class="info">
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                    alt="location">
+                                <span class="text-midGray">Governate - Area</span>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap mb-2">
+                                <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                    alt="spacve">
+                                <span class="text-midGray">1200 m<sup>2</sup>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="text-secondary price">
+                            2779 KD
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- end feature messages -->
+
+    <!-- start statistics -->
+    <div class="statistics text-light mb-3 text-center">
+        <div class="container position-relative z-index1" data-aos="zoom-in-up">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <span class="mb-2 d-block">Properties Listed</span>
+                    <h6 class="mb-0">
+                        +987654
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <span class="mb-2 d-block">Properties Sold</span>
+                    <h6 class="mb-0">
+                        +987654
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <span class="mb-2 d-block">Satisfied Clients</span>
+                    <h6 class="mb-0">
+                        +987654
+                    </h6>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <span class="mb-2 d-block">Team Members</span>
+                    <h6 class="mb-0">
+                        +987654
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end statistics -->
+
+    <!-- Start recently added -->
+    <div class="recently-added position-relative pt-5 pb-4">
+        <div class="container">
+            <h3 class="main-title text-center">Recently Add</h3>
+            <p class="main-desc text-center">
+                The most important properties and the best prices on our site
+            </p>
+
+            <div class="row mt-30">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="item product-item w-100 mb-5" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="position-relative">
+                            <a href="productDetails.html">
+                                <img src="assets/img/product.png" data-src="assets/img/product.png"
+                                    class="solutionIcon lazyload position-relative" alt="title">
+                            </a>
+                            <ul class="action-list">
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-heart text-gray toggle-like"></i>
+                                </li>
+                                <li class="p-2 d-flex align-items-center justify-content-center">
+                                    <a href="javascript:void(0)" class="compare-item">
+                                        <i class="fa-solid fa-code-compare text-gray"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="p-2 d-flex align-items-center justify-content-center position-relative show-optipns">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-share-alt text-gray"></i>
+                                    </a>
+                                    <ul class="share-options">
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <i class="fab fa-facebook-messenger"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="options">
+                                <span class="option text-capitalize py-1 px-3 me-2">House</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">For Rent</span>
+                                <span class="option text-capitalize py-1 px-3 me-2">commerial</span>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4">
+                            <a href="productDetails.html">
+                                <h6> Property Title</h6>
+                            </a>
+                            <div class="info">
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/location.svg" data-src="assets/img/location.svg" class="me-2"
+                                        alt="location">
+                                    <span class="text-midGray">Governate - Area</span>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap mb-2">
+                                    <img src="assets/img/space.svg" data-src="assets/img/space.svg" class="me-2"
+                                        alt="spacve">
+                                    <span class="text-midGray">1200 m<sup>2</sup>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-secondary price">
+                                2779 KD
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end recently added -->
+
+    <!-- start contact us -->
+    <div class="contatc-us mb-3 text-white">
+        <div class="container">
+            <div data-aos="fade-in"
+                class="inner-cont d-flex flex-column align-items-start flex-md-row align-items-center justify-content-md-between">
+
+                <img src="assets/img/squares.svg" data-src="assets/img/squares.svg" class="squares" alt="squares">
+
+                <div>
+                    <h3 class="text-capitalize">for real estate request</h3>
+                    <p class="mb-md-0">
+                        Our North American Field Guides provide tips for identifying birds in all of
+                        the regions of the United States and Canada. Download any of our guides
+                        for free now!
+                    </p>
+                </div>
+
+                <a href="#" class="btn">
+                    Contact Us
+                </a>
+
+                <img src="assets/img/dots.svg" data-src="assets/img/dots.svg" class="dots" alt="dots">
+            </div>
+        </div>
+    </div>
+    <!-- end contact us -->
+
+    <!-- start footer -->
+    <footer class="bg-primary pt-5">
+        <div class="container position-relative z-index1">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center justify-content-md-start">
+                    <div>
+                        <img src="assets/img/logo.png" data-src="assets/img/logo.png" class="logo lazyload"
+                            alt="elsahli">
+                        <p class="my-3">
+                            Kuwait-Riggai - Block 1 - Lane 1 - Parcel 15 -
+                            Building 19 - Floor 9 - Flat 48
+                        </p>
+                        <div class="social d-flex align-items-center flex-wrap">
+                            <a href="#" class="me-3 hvr-float-shadow">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#" class="me-3 hvr-float-shadow">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="hvr-float-shadow">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div>
+                        <h5>Community</h5>
+                        <ul class="links">
+                            <li><a href="#">For Rent</a></li>
+                            <li><a href="#">For Seller</a></li>
+                            <li><a href="#">Properties</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div>
+                        <h5>About</h5>
+                        <ul class="links">
+                            <li><a href="aboutUs.html">Our Story</a></li>
+                            <li><a href="#">Company</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center justify-content-md-start">
+                    <div class="ms-md-4">
+                        <h5>Contact</h5>
+                        <ul class="links">
+                            <li>
+                                <a href="tel:+4733378901">
+                                    <i class="fa-solid fa-phone me-2 footer-icon"></i>
+                                    94567890987</a>
+                            </li>
+                            <li>
+                                <a href="tel:+4733378901">
+                                    <i class="fa-solid fa-phone me-2 footer-icon"></i>
+                                    94567890987</a>
+                            </li>
+                            <li>
+                                <a href="mailto:mail@gmail.com">
+                                    <i class="fas fa-envelope me-2 footer-icon"></i>
+                                    mail@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot me-2 footer-icon"></i>
+                                    Kuwait-Riggai</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mx-auto copy-right mt-5" data-aos="zoom-in-up" data-aos-duration="3000" data-aos-offset="-200">
+                Developing by <a href="https://www.roqay.com" target="_blank" class="ms-1">Roqay</a>
+            </div>
+
+        </div>
+        <img src="assets/img/footerImg.svg" data-src="assets/img/footerImg.svg" class="footerImg lazyload">
+    </footer>
+    <!-- end footer -->
+
+    <!-- Modals -->
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-body moda-body-p">
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div>
+                            <label for="password" class="form-label">Password</label>
+                            <div class="position-relative">
+                                <input type="password" class="form-control" id="password">
+                                <i class="fa-solid fa-eye toggle-password"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between flex-wrap mt-5 mb-4">
+                            <a data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgetModal"
+                                class="text-orange fs14 mb-3 fw-600">
+                                forgot Password?
+                            </a>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                                <label class="form-check-label text-gray fs14" for="rememberMe">
+                                    Remember Me
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-orange w-100 fw-600 mb-4">
+                            Login
+                        </button>
+
+                        <div class="d-flex align-items-center flex-wrap fw-600 fs14">
+                            Don't have an Account? <a data-bs-dismiss="modal" data-bs-toggle="modal"
+                                data-bs-target="#signUpModal" class="text-orange ms-1 text-decoration-underline">Sign
+                                up</a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-body moda-body-p">
+                    <h6 class="text-midGray fs14 fw-600 text-center mb-4">Sign Up</h6>
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="fName" class="form-label">first name</label>
+                            <input type="text" class="form-control" id="fName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mName" class="form-label">middle name</label>
+                            <input type="text" class="form-control" id="mName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lName" class="form-label">last name</label>
+                            <input type="text" class="form-control" id="lName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">phone mumber</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password1" class="form-label">Password</label>
+                            <div class="position-relative">
+                                <input type="password" class="form-control" id="password1">
+                                <i class="fa-solid fa-eye toggle-password"></i>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password2" class="form-label">confirm Password</label>
+                            <div class="position-relative">
+                                <input type="password" class="form-control" id="password2">
+                                <i class="fa-solid fa-eye toggle-password"></i>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-orange w-100 fw-600 mb-4">
+                            Sign Up
+                        </button>
+
+                        <div class="d-flex align-items-center flex-wrap fw-600 fs14">
+                            already have account? <a data-bs-dismiss="modal" data-bs-toggle="modal"
+                                data-bs-target="#loginModal"
+                                class="text-orange ms-1 text-decoration-underline">Login</a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="forgetModal" tabindex="-1" aria-labelledby="forgetModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-body moda-body-p">
+                    <h6 class="text-midGray fs14 fw-600 text-center mb-4">Forget Password</h6>
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="email2" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email2">
+                        </div>
+
+
+                        <button type="submit" class="btn btn-orange w-100 fw-600 mb-4">
+                            Get new password
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start fixed whatsaap-->
+    <div class="whatsapp-icon">
+        <a href="https://www.google.com" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+    <!-- end fixed whatsaap-->
+
+    <!-- start scroll-top-->
+    <div id="scroll-top" class="text-center">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- end scroll-top-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // select2 
+            $('.select2').select2({
+                placeholder: 'Select',
+                allowClear: true
+            });
+
+            // for slider 
+            $('.feature-carusel').owlCarousel({
+                margin: 25,
+                dots: false,
+                nav: true,
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>'
+                ],
+                autoplay: true,
+                autoplayHoverPause: true,
+                // rtl: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                        center: false,
+                    },
+                    992: {
+                        items: 3
+                    },
+                }
+            });
+
+            //toggle fav
+            $('.toggle-like').on('click', function () {
+                $(this).toggleClass('text-gray text-danger');
+            });
+
+            //toggle options
+            $('.show-optipns').on('click', function () {
+                $(this).find('.share-options').fadeToggle();
+            });
+
+            //toggle compare block
+            $('.compare-item').on('click', function () {
+                $(this).find('i').toggleClass('text-gray text-secondary');
+                $('.comparing-block').fadeIn().css('display', 'flex');
+            });
+            $('.delete-compare').on('click', function () {
+                $('.fa-code-compare').removeClass('text-secondary').addClass('text-gray');
+                $('.comparing-block').fadeOut();
+            });
+
+            // show/hide password
+            $(".toggle-password").on('click', function () {
+                $(this).toggleClass("fa-eye fa-eye-slash");
+                let input = $($(this).parent().find('input'));
+                if (input.attr("type") == "password") {
+                    input.attr("type", "text");
+                } else {
+                    input.attr("type", "password");
+                }
+            });
+
+        });
+    </script>
+
+
+</body>
+
+</html>
